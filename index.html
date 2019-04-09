@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="static/css/style.css">
+        <link rel="stylesheet" type="text/css" href="static/css/queries.css">
+
+        <title>spacechat.io</title>
+    </head>
+
+    <body>
+        <nav>
+            <div id='canvas'>
+
+            </div>
+
+            <h1>spacechat</h1>
+        </nav>
+
+        <div class="chat">
+            <p id='hello_goodbye'> start by saying hello. quit by saying goodbye.</p>
+            <div class="you">
+                <p>you: </p><input type="text"/>
+            </div>
+
+            <div class="ai">
+                <p>spacebot: </p>
+                <div id="ai-box">
+                    <p id="response"></p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class='about'>about&darr;</p>
+            <p class='about' style="display: none">about&uarr;</p>
+
+            <div id='info'>
+                <p class='info'></p>
+                <p class='info' style="display: none">
+                    okay so boom...honestly one day i was bored and just did
+                    it. i like NLP and wanted to make a chat box so here we are.
+                    i also wanted to play with some 3d stuff so here you go. :)
+                </p>
+            </div>
+            <p>created by thomas edge 2019 <a href='https://thomascedge.com' target='blank'>thomascedge.com</a></p>
+        </footer>
+
+        <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/threejs/r76/three.min.js"></script>-->
+        <script src="static/js/three.min.js"></script>
+        <script type="text/javascript" src="static/js/script.js"></script>
+        <script type="text/javascript" src="static/js/sphere.js"></script>
+    </body>
+
+    <!--three.js->
+</html>
